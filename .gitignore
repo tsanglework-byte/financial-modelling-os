@@ -1,0 +1,15 @@
+# Sensitive or generated files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.venv/
+output/
+private-data/
+dist/
+.claude/settings.local.json
+.claude/skills/
+.agents/skills/
+~$*.xlsx
